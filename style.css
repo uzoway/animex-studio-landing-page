@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'formula condensed bold';
+    src: url('./assets/font/FormulaCondensed-Bold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'formula condensed light';
+    src: url('./assets/font/FormulaCondensed-Light.otf') format('opentype');
+}
+
+/* body {
+    font-family: 'formula condensed light', sans-serif;
+} */
+
