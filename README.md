@@ -22,13 +22,13 @@ This repo is for the development of the conceptual and animation design for a cr
 
 ### Approach
 
-To get the sequencing and timing right for the motion, I had to download the video to my system and watched it multiple times with a playback speed of 0.25. This is an approach I learnt from the awesome [Carl](https://twitter.com/snorklTV).
+To get the sequencing and timing right for the motion, I had to download the video to my system and watch it multiple times with a playback speed of 0.25. This is an approach I learnt from the awesome [Carl](https://twitter.com/snorklTV).
 I started by creating a gsap timeline as so:
 ```js
 const preloaderTl = gsap.timeline();
 
 ```
-and added all the tweens to it. This makes sure that all tweens plays in succession and makes relative and absolute positioning of tween in the playhead easy.
+and added all the tweens to it. This makes sure that all tweens play in succession and makes relative and absolute positioning of tween in the playhead easy.
 I split the counters animation (000, 037, 068, 083 & 100) into different tweens. This is well documented in the ***script.js*** file.
 
 Below is a step by step process explaining the movement of a typical counter:
