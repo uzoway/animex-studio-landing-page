@@ -1,3 +1,9 @@
+
+
+https://github.com/uzoway/animex-studio-landing-page/assets/73430874/cd8fc797-2590-49c9-a2e6-9787706bb331
+
+
+
 # ANIMEX - Conceptual development for a creative studio website
 
 This repo is for the development of the conceptual and animation design for a creative studio website made by [Alex Tkachev](https://twitter.com/simply_aalex) and [Willie](https://twitter.com/willie_ui) [here](https://twitter.com/simply_aalex/status/1661385253548687365). At first sight, I really admired the pageload animation and the layout of the landing page and so I decided to develop it.
