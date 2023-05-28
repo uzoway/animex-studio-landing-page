@@ -15,7 +15,7 @@
 
         <div class="preloader">
             <p class="preloader__text">
-                loading
+                <span class="preloader__text--word">loading</span>
                 <span class="preloader__text--dot"></span>
                 <span class="preloader__text--dot"></span>
                 <span class="preloader__text--dot"></span>
@@ -54,13 +54,13 @@
         <!-- Landing page main content -->
 
         <nav class="navigation">
-            <ul class="left__container">
+            <ul class="js__opacity left__container">
                 <li class="left__container--list"><a href="#" class="list__link">work</a></li>
                 <li class="left__container--list"><a href="#" class="list__link">philosophy</a></li>
                 <li class="left__container--list"><a href="#" class="list__link">contact</a></li>
             </ul>
 
-            <div class="center__container">
+            <div class="js__opacity center__container">
                 <div class="left__wrapper">
                     <p class="left__wrapper--text">creative animation studio</p>
                     <p class="left__wrapper--categoryText">cgi, illustrations, 3d,<br> mixed-media</p>
@@ -73,20 +73,23 @@
             <a href="#" class="navigation__logo">animex</a>
         </nav>
 
-        <div class="content">
+        <div class="js__opacity content">
             <p class="content__text">axiom</p>
             <p class="content__textBottom">unlocking the magic of animation</p>
         </div>
 
         <div class="footer">
             <h1 class="footer__heading">
-                <div class="footer__heading--text">animex</div>
-                <div class="footer__heading--two"><img src="./assets/image/greg-rakozy-oMpAz-DN-9I-unsplash.jpg" alt="landscape picture of a man in space"> <span class="footer__heading--text1">studio</span></div>
+                <div class="footer__heading--text"><span class="inner__text">animex</span></div>
+                <div class="footer__heading--two"><span class="inner__content"><img src="./assets/image/greg-rakozy-oMpAz-DN-9I-unsplash.jpg" alt="landscape picture of a man in space"> <span class="footer__heading--text1">studio</span></span></div>
             </h1>
 
-            <div class="footer__deco"></div>
+            <div class="js__opacity footer__deco"></div>
         </div>
     </main>
+
+    <!-- GSAP core CDN-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
 
     <script src="./script.js"></script>
 </body>
