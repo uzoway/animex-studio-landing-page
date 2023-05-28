@@ -219,3 +219,32 @@ preloaderTl.to(".js__opacity", {
     ease: "expo.out",
     duration: 1
 }, "-=.7")
+
+
+// Video hover interaction
+const videoContainer = document.querySelector(".inner__content--video");
+const video = document.querySelector(".video");
+
+videoContainer.addEventListener("mouseover", () => {
+    gsap.set(".video__button", { opacity: 1 });
+    video.play();
+})
+
+videoContainer.addEventListener("mouseleave", () => {
+    gsap.set(".video__button", { opacity: 0 });
+    video.currentTime = 0;
+    video.pause();
+})
+
+let mouseXPos;
+let mouseYPos;
+
+window.addEventListener("mousemove", (e) => {
+    mouseXPos = e.clientX;
+    mouseYPos = e.clientY;
+
+    gsap.to(".video__button", {
+        top: mouseYPos,
+        left: mouseXPos,
+    })
+})
