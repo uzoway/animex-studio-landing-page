@@ -92,7 +92,6 @@ body {
     position: absolute;
     left: 0;
     overflow: hidden;
-    /* background-color: red; */
 }
 
 .preloader__counter .counter__container span {
@@ -106,7 +105,6 @@ body {
 
 .preloader__counter .counter__container2 {
     bottom: 7vw;
-    /* background-color: red; */
 }
 
 .preloader__counter .counter__container2 .counter {
@@ -115,7 +113,6 @@ body {
 
 .preloader__counter .counter__container3 {
     bottom: 12vw;
-    /* background-color: red; */
 }
 
 .preloader__counter .counter__container3 .counter {

@@ -1,5 +1,6 @@
 const preloaderTl = gsap.timeline();
 
+// "Loading" text and 3 dots intro animation
 preloaderTl.to(".preloader__text--word, .preloader__text--dot", { 
     y: "0", 
     delay: 1,
@@ -188,6 +189,8 @@ preloaderTl.fromTo(".counter__container5", {
     ease: "expo.inOut"
 }, "-=1.3")
 
+
+// Landing page animation
 preloaderTl.to(".preloader__text--word, .preloader__text--dot", { 
     y: "150%", 
     delay: 1,
